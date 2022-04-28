@@ -1,7 +1,8 @@
 body {
-  background-color: rgb(19, 6, 80);
+  background-color: hsl(218, 28%, 13%);
   background-image: url();
   background-repeat: no-repeat;
+  font-family: sans-serif;
 }
 
 h1,
@@ -14,4 +15,65 @@ p,
 ul,
 a {
   color: white;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center-page {
+  width: 1440px;
+  background-color: ;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+.hero {
+  width: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: ;
+}
+
+.image-set1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-set2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 53%, 9%);
 }
