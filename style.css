@@ -5,6 +5,12 @@ body {
   font-family: sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -15,6 +21,7 @@ p,
 ul,
 a {
   color: white;
+  text-align: center;
 }
 
 .nav-bar {
@@ -23,32 +30,47 @@ a {
   justify-content: space-between;
 }
 
+.nav-bar a {
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+.nav-bar a:hover {
+  background-color: rgb(139, 95, 0);
+  padding: 10px 10px 10px 10px;
+}
+.nav-bar a:active {
+  background-color: aqua;
+  text-decoration: underline;
+  color: black;
+}
+
 .center-page {
-  width: 1440px;
-  background-color: ;
   /* margin-left: auto;
   margin-right: auto; */
-  margin: 0 auto;
+  margin: 0;
+  padding: 80px;
 }
 
 .hero {
-  width: 40;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  background-color: ;
+  padding: 300px;
 }
 
 .image-set1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: center;
 }
 
 .image-set2 {
   display: flex;
   align-items: center;
+  align-content: center;
   justify-content: center;
 }
 
@@ -76,4 +98,85 @@ a {
   align-items: center;
   justify-content: center;
   background-color: hsl(216, 53%, 9%);
+}
+.alignment {
+  padding: 0px 200px;
+}
+.container {
+  display: flex;
+  flex-shrink: 1;
+  flex-basis: 1;
+  width: auto;
+  padding: 0px 200px;
+}
+
+.items {
+  display: flex;
+  padding: 100px;
+}
+.item {
+  padding: 40px;
+}
+.item img {
+  justify-content: center;
+  padding-left: ;
+}
+button {
+  padding: 20px 70px;
+  border-radius: 45px;
+  background-color: cyan;
+  border: none;
+  font-size: auto;
+}
+button:hover {
+  background-color: rgb(139, 95, 0);
+  transition: ease-in-out 1s;
+}
+
+button:active {
+  background-color: rgb(255, 0, 98);
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+.stay p,
+h2 {
+  text-align: left;
+}
+.stay {
+  margin: 0px -70px;
+}
+
+.containers {
+  display: flex;
+  padding: 0px 300px;
+}
+
+.model {
+  padding: 25px;
+  margin: 10px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 10px;
+}
+.model p {
+  text-align: left;
+}
+.model img {
+  border-radius: 80%;
+  width: 10%;
+  height: 10%;
+}
+.img {
+  display: flex;
+  padding-right: 25px;
+  justify-content: left;
+}
+.img h4 {
+  padding-left: 15px;
+  text-align: left;
+  margin: 0;
+}
+.quote img {
+  z-index: -1;
+  padding-left: 300px;
+  margin-bottom: -26px;
 }
